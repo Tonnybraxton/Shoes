@@ -1,0 +1,304 @@
+{
+  "measuredAt": "2026-09-09T17:02:02.375Z",
+  "baseURL": "http://127.0.0.1:3000",
+  "environment": {
+    "node": "v24.13.0",
+    "chromium": "153.0.8010.12",
+    "platform": "win32"
+  },
+  "method": {
+    "browser": "Three fresh browser contexts per route and viewport; warmed server; no CPU or network throttling.",
+    "observation": "Navigation through load, fonts and initially loaded images, then 1500 ms of observation.",
+    "api": "One warmup followed by 25 sequential GETs per endpoint through the frontend proxy, including response body transfer.",
+    "limitations": "Local production frontend and development Django/PostgreSQL. This is not a load test or a field Core Web Vitals result; INP is not measured."
+  },
+  "pages": [
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/",
+      "medianTtfbMs": 633.3,
+      "medianLcpMs": 1348,
+      "maxObservedCls": 0.88,
+      "samples": [
+        {
+          "ttfbMs": 633.3000000007451,
+          "lcpMs": 1348,
+          "cls": 0.88,
+          "domContentLoadedMs": 994.9000000022352
+        },
+        {
+          "ttfbMs": 491.30000000074506,
+          "lcpMs": 1188,
+          "cls": 0.88,
+          "domContentLoadedMs": 730.3999999985099
+        },
+        {
+          "ttfbMs": 967.7999999970198,
+          "lcpMs": 1652,
+          "cls": 0.88,
+          "domContentLoadedMs": 1299.5999999977648
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/shop",
+      "medianTtfbMs": 627.3,
+      "medianLcpMs": 1304,
+      "maxObservedCls": 0.257,
+      "samples": [
+        {
+          "ttfbMs": 946,
+          "lcpMs": 1528,
+          "cls": 0,
+          "domContentLoadedMs": 1267.4000000022352
+        },
+        {
+          "ttfbMs": 627.3000000007451,
+          "lcpMs": 1304,
+          "cls": 0.257,
+          "domContentLoadedMs": 938.8000000007451
+        },
+        {
+          "ttfbMs": 578.3999999985099,
+          "lcpMs": 1192,
+          "cls": 0.257,
+          "domContentLoadedMs": 834.1999999992549
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/products/velocity-02",
+      "medianTtfbMs": 547.9,
+      "medianLcpMs": 1012,
+      "maxObservedCls": 0.257,
+      "samples": [
+        {
+          "ttfbMs": 592.1999999992549,
+          "lcpMs": 904,
+          "cls": 0,
+          "domContentLoadedMs": 894.5
+        },
+        {
+          "ttfbMs": 547.8999999985099,
+          "lcpMs": 1320,
+          "cls": 0.257,
+          "domContentLoadedMs": 970.8000000007451
+        },
+        {
+          "ttfbMs": 480.19999999925494,
+          "lcpMs": 1012,
+          "cls": 0.257,
+          "domContentLoadedMs": 672.5
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/",
+      "medianTtfbMs": 609.3,
+      "medianLcpMs": 1100,
+      "maxObservedCls": 0.8850710900473934,
+      "samples": [
+        {
+          "ttfbMs": 609.3000000007451,
+          "lcpMs": 1284,
+          "cls": 0.8850710900473934,
+          "domContentLoadedMs": 921.1000000014901
+        },
+        {
+          "ttfbMs": 644.3000000007451,
+          "lcpMs": 1096,
+          "cls": 0,
+          "domContentLoadedMs": 979.1999999992549
+        },
+        {
+          "ttfbMs": 590.0999999977648,
+          "lcpMs": 1100,
+          "cls": 0,
+          "domContentLoadedMs": 967.0999999977648
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/shop",
+      "medianTtfbMs": 629.4,
+      "medianLcpMs": 1032,
+      "maxObservedCls": 0.18838862559241706,
+      "samples": [
+        {
+          "ttfbMs": 885.1999999992549,
+          "lcpMs": 1500,
+          "cls": 0.18838862559241706,
+          "domContentLoadedMs": 1119.199999999255
+        },
+        {
+          "ttfbMs": 476.5,
+          "lcpMs": 1012,
+          "cls": 0,
+          "domContentLoadedMs": 731.9000000022352
+        },
+        {
+          "ttfbMs": 629.4000000022352,
+          "lcpMs": 1032,
+          "cls": 0,
+          "domContentLoadedMs": 833.5
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/products/velocity-02",
+      "medianTtfbMs": 470.1,
+      "medianLcpMs": 912,
+      "maxObservedCls": 0.18838862559241706,
+      "samples": [
+        {
+          "ttfbMs": 485.8999999985099,
+          "lcpMs": 948,
+          "cls": 0.18838862559241706,
+          "domContentLoadedMs": 817.1999999992549
+        },
+        {
+          "ttfbMs": 470.0999999977648,
+          "lcpMs": 912,
+          "cls": 0.18838862559241706,
+          "domContentLoadedMs": 739.5
+        },
+        {
+          "ttfbMs": 428.5999999977648,
+          "lcpMs": 664,
+          "cls": 0,
+          "domContentLoadedMs": 694
+        }
+      ]
+    }
+  ],
+  "api": [
+    {
+      "route": "/api/v1/site/",
+      "requests": 25,
+      "medianMs": 325.17,
+      "p95Ms": 582.66,
+      "samplesMs": [
+        334.7314000000042,
+        336.97350000000006,
+        357.3441000000021,
+        283.0899999999965,
+        326.39050000000134,
+        260.83630000000267,
+        262.05579999999463,
+        265.6307000000015,
+        288.5480000000025,
+        365.03250000000116,
+        277.5769,
+        286.2795000000042,
+        358.4999000000025,
+        317.20130000000063,
+        322.20679999999993,
+        1083.1321000000025,
+        305.82420000000275,
+        273.2329999999929,
+        325.16990000000806,
+        350.10109999999986,
+        362.8267999999953,
+        503.35349999999744,
+        582.655700000003,
+        331.4953999999998,
+        305.2911999999924
+      ]
+    },
+    {
+      "route": "/api/v1/products/",
+      "requests": 25,
+      "medianMs": 249.87,
+      "p95Ms": 413.37,
+      "samplesMs": [
+        150.141100000008,
+        413.3713999999891,
+        271.16629999999714,
+        240.17910000000848,
+        366.89109999999346,
+        312.94659999999567,
+        255.98949999999604,
+        501.1978999999992,
+        274.075399999987,
+        228.6883000000089,
+        271.9461999999912,
+        186.5356000000029,
+        177.88279999999213,
+        278.4386999999988,
+        164.89880000000994,
+        164.19379999999364,
+        288.424199999994,
+        165.4756999999954,
+        214.36059999999998,
+        341.72389999999723,
+        202.21190000000934,
+        211.02100000000792,
+        397.60599999999977,
+        249.87170000000333,
+        179.75759999999718
+      ]
+    },
+    {
+      "route": "/api/v1/products/velocity-02/",
+      "requests": 25,
+      "medianMs": 52.31,
+      "p95Ms": 80.68,
+      "samplesMs": [
+        43.367700000002515,
+        40.41070000000764,
+        76.10149999998976,
+        67.59339999999793,
+        47.651499999992666,
+        34.93249999999534,
+        40.35440000001108,
+        46.43989999999758,
+        46.04399999999441,
+        72.64790000001085,
+        58.43819999998959,
+        46.027699999991455,
+        131.8335999999981,
+        66.17859999999928,
+        62.30859999998938,
+        40.39100000000326,
+        52.31120000001101,
+        43.053699999989476,
+        60.36599999999453,
+        80.67990000000282,
+        75.84610000000976,
+        49.653000000005704,
+        47.804000000003725,
+        62.97260000000824,
+        55.590099999986705
+      ]
+    }
+  ]
+}

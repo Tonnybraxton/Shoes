@@ -1,0 +1,415 @@
+{
+  "measuredAt": "2026-09-09T17:06:55.515Z",
+  "baseURL": "http://127.0.0.1:3000",
+  "environment": {
+    "node": "v24.13.0",
+    "chromium": "153.0.8010.12",
+    "platform": "win32"
+  },
+  "method": {
+    "browser": "Three fresh browser contexts per route and viewport; warmed server; no CPU or network throttling.",
+    "observation": "Navigation through load, fonts and initially loaded images, then 1500 ms of observation.",
+    "api": "One warmup followed by 25 sequential GETs per endpoint through the frontend proxy, including response body transfer.",
+    "limitations": "Local production frontend and development Django/PostgreSQL. This is not a load test or a field Core Web Vitals result; INP is not measured."
+  },
+  "pages": [
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/",
+      "medianTtfbMs": 354.2,
+      "medianLcpMs": 940,
+      "maxObservedCls": 0.014666666666666666,
+      "samples": [
+        {
+          "ttfbMs": 322.4000000022352,
+          "lcpMs": 1048,
+          "cls": 0.014666666666666666,
+          "shifts": [
+            {
+              "atMs": 898.7000000029802,
+              "value": 0.014666666666666666,
+              "sources": [
+                {
+                  "element": "MAIN",
+                  "className": "",
+                  "previous": {
+                    "x": 0,
+                    "y": 120,
+                    "width": 1440,
+                    "height": 880,
+                    "top": 120,
+                    "right": 1440,
+                    "bottom": 1000,
+                    "left": 0
+                  },
+                  "current": {
+                    "x": 0,
+                    "y": 144,
+                    "width": 1440,
+                    "height": 856,
+                    "top": 144,
+                    "right": 1440,
+                    "bottom": 1000,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "domContentLoadedMs": 610.7000000029802
+        },
+        {
+          "ttfbMs": 419.6000000014901,
+          "lcpMs": 788,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 476.20000000298023
+        },
+        {
+          "ttfbMs": 354.19999999925494,
+          "lcpMs": 940,
+          "cls": 0.014666666666666666,
+          "shifts": [
+            {
+              "atMs": 819,
+              "value": 0.014666666666666666,
+              "sources": [
+                {
+                  "element": "MAIN",
+                  "className": "",
+                  "previous": {
+                    "x": 0,
+                    "y": 120,
+                    "width": 1440,
+                    "height": 880,
+                    "top": 120,
+                    "right": 1440,
+                    "bottom": 1000,
+                    "left": 0
+                  },
+                  "current": {
+                    "x": 0,
+                    "y": 144,
+                    "width": 1440,
+                    "height": 856,
+                    "top": 144,
+                    "right": 1440,
+                    "bottom": 1000,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "domContentLoadedMs": 503.19999999925494
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/shop",
+      "medianTtfbMs": 440.3,
+      "medianLcpMs": 1124,
+      "maxObservedCls": 0,
+      "samples": [
+        {
+          "ttfbMs": 402.30000000074506,
+          "lcpMs": 808,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 580.3000000007451
+        },
+        {
+          "ttfbMs": 440.30000000074506,
+          "lcpMs": 1124,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 654.3000000007451
+        },
+        {
+          "ttfbMs": 565.3000000007451,
+          "lcpMs": 1220,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 878.3000000007451
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "route": "/products/velocity-02",
+      "medianTtfbMs": 309.7,
+      "medianLcpMs": 596,
+      "maxObservedCls": 0,
+      "samples": [
+        {
+          "ttfbMs": 270.69999999925494,
+          "lcpMs": 520,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 462.6000000014901
+        },
+        {
+          "ttfbMs": 373.30000000074506,
+          "lcpMs": 596,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 583.6000000014901
+        },
+        {
+          "ttfbMs": 309.70000000298023,
+          "lcpMs": 784,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 602.3000000007451
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/",
+      "medianTtfbMs": 380.6,
+      "medianLcpMs": 692,
+      "maxObservedCls": 0.014681274005525484,
+      "samples": [
+        {
+          "ttfbMs": 380.6000000014901,
+          "lcpMs": 692,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 614
+        },
+        {
+          "ttfbMs": 368.4000000022352,
+          "lcpMs": 668,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 582.9000000022352
+        },
+        {
+          "ttfbMs": 628.1999999992549,
+          "lcpMs": 1208,
+          "cls": 0.014681274005525484,
+          "shifts": [
+            {
+              "atMs": 1133.0999999977648,
+              "value": 0.014681274005525484,
+              "sources": [
+                {
+                  "element": "MAIN",
+                  "className": "",
+                  "previous": {
+                    "x": 0,
+                    "y": 97,
+                    "width": 390,
+                    "height": 747,
+                    "top": 97,
+                    "right": 390,
+                    "bottom": 844,
+                    "left": 0
+                  },
+                  "current": {
+                    "x": 0,
+                    "y": 111,
+                    "width": 390,
+                    "height": 733,
+                    "top": 111,
+                    "right": 390,
+                    "bottom": 844,
+                    "left": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "domContentLoadedMs": 782.6999999992549
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/shop",
+      "medianTtfbMs": 494,
+      "medianLcpMs": 1076,
+      "maxObservedCls": 0,
+      "samples": [
+        {
+          "ttfbMs": 479.29999999701977,
+          "lcpMs": 1024,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 719.0999999977648
+        },
+        {
+          "ttfbMs": 715,
+          "lcpMs": 1252,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 981.1000000014901
+        },
+        {
+          "ttfbMs": 494,
+          "lcpMs": 1076,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 727
+        }
+      ]
+    },
+    {
+      "device": "mobile-width",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "route": "/products/velocity-02",
+      "medianTtfbMs": 546.1,
+      "medianLcpMs": 1036,
+      "maxObservedCls": 0,
+      "samples": [
+        {
+          "ttfbMs": 750.8000000007451,
+          "lcpMs": 1312,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 1158.8999999985099
+        },
+        {
+          "ttfbMs": 459.80000000074506,
+          "lcpMs": 1036,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 852
+        },
+        {
+          "ttfbMs": 546.0999999977648,
+          "lcpMs": 796,
+          "cls": 0,
+          "shifts": [],
+          "domContentLoadedMs": 775.8000000007451
+        }
+      ]
+    }
+  ],
+  "api": [
+    {
+      "route": "/api/v1/site/",
+      "requests": 25,
+      "medianMs": 281.36,
+      "p95Ms": 390.14,
+      "samplesMs": [
+        360.4928,
+        281.3619000000035,
+        319.0604999999996,
+        308.6093000000037,
+        523.7895999999964,
+        390.1403999999966,
+        281.31550000000425,
+        313.1944000000003,
+        305.76200000000244,
+        283.8145999999979,
+        230.4189999999944,
+        315.27790000000095,
+        251.96399999999994,
+        228.79460000000108,
+        221.99610000000393,
+        219.70550000000367,
+        217.89449999999488,
+        225.35599999999977,
+        234.186099999999,
+        214.21839999999793,
+        275.436099999999,
+        260.1212000000014,
+        298.91589999999997,
+        291.2517999999982,
+        345.4051000000036
+      ]
+    },
+    {
+      "route": "/api/v1/products/",
+      "requests": 25,
+      "medianMs": 184.91,
+      "p95Ms": 302.57,
+      "samplesMs": [
+        195.87139999999636,
+        219.70700000000215,
+        459.74559999999474,
+        154.64340000000084,
+        168.17350000000442,
+        263.3451000000059,
+        157.15380000000005,
+        191.0722999999998,
+        269.5292999999947,
+        155.25260000000708,
+        153.0107999999891,
+        253.57069999999658,
+        160.25269999999728,
+        161.93189999999595,
+        302.5656000000017,
+        195.8073000000004,
+        184.90660000000207,
+        282.6116000000038,
+        184.15759999999136,
+        154.20849999999336,
+        232.12790000000678,
+        152.51380000000063,
+        151.9274000000005,
+        241.0575000000099,
+        155.9956999999995
+      ]
+    },
+    {
+      "route": "/api/v1/products/velocity-02/",
+      "requests": 25,
+      "medianMs": 40.29,
+      "p95Ms": 63.05,
+      "samplesMs": [
+        36.55909999999858,
+        33.57060000000638,
+        39.990200000000186,
+        38.955000000001746,
+        37.766700000007404,
+        35.149499999999534,
+        39.04769999999553,
+        36.802700000000186,
+        40.03889999999956,
+        35.89039999998931,
+        40.29089999999269,
+        35.697000000000116,
+        38.012899999986985,
+        45.92990000000282,
+        45.08669999999984,
+        49.694799999997485,
+        40.95930000000226,
+        45.33290000000852,
+        50.017600000006496,
+        50.28770000000077,
+        41.32459999999264,
+        63.0451999999932,
+        49.42279999998573,
+        66.10050000000047,
+        58.43050000000221
+      ]
+    }
+  ]
+}

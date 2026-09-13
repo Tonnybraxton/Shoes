@@ -1,0 +1,6 @@
+{
+  "name": "soleline-workspace",
+  "private": true,
+  "scripts": {"db": "node scripts/local-postgres.mjs"},
+  "devDependencies": {"embedded-postgres": "17.10.0-beta.17"}
+}
